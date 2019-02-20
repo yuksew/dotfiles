@@ -13,7 +13,7 @@ brew "git"
 brew "giter8"
 brew "gnupg", link: false
 brew "go"
-brew "gpg-agent"
+# brew "gpg-agent"
 brew "gradle"
 brew "jq"
 brew "kotlin"
@@ -26,7 +26,7 @@ brew "mysql-utilities"
 brew "nkf"
 brew "openssh"
 brew "peco"
-brew "phantomjs"
+# brew "phantomjs"
 brew "pup"
 brew "rename"
 brew "scala"
@@ -87,15 +87,15 @@ cask "font-source-code-pro"
 cask "font-source-han-code-jp"
 
 # atok
-tap "shogogg/homebrew-cask-atok"
-cask "atok-passport"
+# tap "shogogg/homebrew-cask-atok"
+# cask "atok-passport"
 
 # mas
-mas "Cleaner for Memory", id: 748212890
-mas "File Viewer", id: 495987613
-mas "Keynote", id: 409183694
-mas "LINE", id: 539883307
-mas "The Unarchiver", id: 425424353
-mas "Trello", id: 1278508951
-mas "TweetDeck", id: 485812721
-mas "YoruFukurou", id: 428834068
+# mas "Cleaner for Memory", id: 748212890
+# mas "File Viewer", id: 495987613
+# mas "Keynote", id: 409183694
+# mas "LINE", id: 539883307
+# mas "The Unarchiver", id: 425424353
+# mas "Trello", id: 1278508951
+# mas "TweetDeck", id: 485812721
+# mas "YoruFukurou", id: 428834068

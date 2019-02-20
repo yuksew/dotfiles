@@ -1,6 +1,6 @@
 [user]
-  name = shogogg
-  email = shogo@studiofly.net
+	name = 内藤勇介
+	email = yuk@arcstyle.jp
 [alias]
   co = checkout
   br = branch
@@ -21,7 +21,7 @@
 [merge]
   ff = false
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/yuk/.gitignore
   autocrlf = input
   editor = vim
 
@@ -29,5 +29,7 @@
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
   path =
 [mergetool "sourcetree"]
-  cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
   trustExitCode = true
+[commit]
+  template = /Users/yuk/.stCommitMsg

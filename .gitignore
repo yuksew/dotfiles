@@ -5,7 +5,9 @@
 .idea
 .envrc
 .phpstorm.meta.php
+_misc
 bower_components
 node_modules
 .vim/.netrwhist
 .vim/dein/
+.env
